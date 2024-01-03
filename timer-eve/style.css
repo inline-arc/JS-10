@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    box-sizing: "border-box";
+}
+
+
+body {
+    background-image: url("./stepan-unar-52jkOdXg46o-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    flex-flow: row;
+    min-height: 100vh;
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+    margin-left: 390px;
+    color: #455d63;
+    margin-bottom: 80px;
+    
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    mix-blend-mode: overlay;
+    color: #B1CAF7;
+}
+
+.dot {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 1;
+    margin: 1rem    ;
+    mix-blend-mode: overlay;
+    color: #B1CAF7;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
