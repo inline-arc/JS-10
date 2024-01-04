@@ -1,0 +1,31 @@
+
+
+canvas{
+    border-style:solid;
+    border-radius: 30px;
+}
+
+
+
+.toolbox{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding-left: 600px;
+    background-color: #f1f1f1;
+    border-style:solid;
+    border-radius:50px;
+    
+}
+
+.toolbox > div {
+  background-color:rgb(227, 255, 170); 
+  width:45px;
+  margin: 10px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 1px solid #030303;
+}
+
