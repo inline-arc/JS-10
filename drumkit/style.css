@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Podkova:wght@600&display=swap');
+
+.bigtext{
+    font-family: 'Iceberg', cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-flow: row;
+    margin: 80px;
+    margin-left: 540px;
+    gap: 20px;
+}
+
+.keycontainer{
+    display: flex;
+    font-size: x-large;
+    flex-flow: row;
+    font-family:'Segoe UI';
+    justify-content: center;
+    gap: 70px;
+    
+}
+
+.key{
+    height: 45px;
+    width: 50px;
+    border: black solid 4px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+.floatcontainer{
+    background-image: url(assets/bg.png);
+    background-position-y:bottom;
+    background-size:180px;
+    margin-top: 200px;
+    padding: 0%;
+    animation: floating;
+}
+
+.desc{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Iceberg', cursives;
+    margin-left: 580px;
+}
+
+#float-img{
+    display: none;
+}
+
+@keyframes floating {
+    0%{
+        opacity: 1;
+        display: block;
+    }
+    75%{
+        opacity: 0.5;
+        display: block;
+    }
+    100%{
+        transform: translateY(-600px);
+        display: block;
+        opacity: 0;
+        /* display: none; */
+    }
+}
