@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+
+.controller{
+    position: absolute;
+    left: 550px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+
+#bg{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    opacity: 70%;
+    background-repeat:repeat;
+    position: absolute;
+    background: repeating-linear-gradient(0deg, #0E0D0E 25%, #0E0D0E 50%, #171819 50%, #171819 75%);
+    background-size: 10px 10px;
+}
+
+.playbox{
+    display: flex;
+    flex-flow: row;
+    z-index: 100;
+    filter: drop-shadow(0px 0px 2px #99ff99) drop-shadow(0px 0px 8px green);
+    align-self: center;    
+    gap: 20px;
+}
+
+.coverup{
+    position: absolute;
+    padding-left: 50px;
+    height: 70px;
+    width: 96%;
+    background-color: #0E0D0E;
+}
+
+input[type=text]{
+    margin-top:10px;
+    width: 200px;
+    color: #99ff99;
+    background-color:#0E0D0E;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    filter: drop-shadow(0px 0px 2px #99ff99) drop-shadow(0px 0px 8px green);
+    font-family: "Poppins", "sans-serif";
+}
+
+h1{
+    position: absolute;
+    font-family: "Poppins", "sans-serif";
+    color: #99ff99;
+    left: 1200px;
+    padding: 10px;
+    bottom: 1px;
+    margin-bottom: 4px;
+    filter: drop-shadow(0px 0px 2px #99ff99) drop-shadow(0px 0px 8px green);
+    text-align:justify;  
+}
+
+
+
