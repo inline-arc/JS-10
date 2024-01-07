@@ -32,8 +32,9 @@
 
 .floatcontainer{
     background-image: url(assets/bg.png);
-    background-position-y:bottom;
-    background-size:180px;
+    background-size:260px;
+    padding: 180px;
+    margin: 0;
 }
 
 .desc{
