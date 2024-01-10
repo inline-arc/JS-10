@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body{
+    background-color: #11151c;
+}
+
+.batmantab > h1{
+    color: #99d1ce;
+    font-size: xx-large;
+    font-family: "Dela Gothic One", sans-serif;
+    border-bottom: #99d1ce solid 3px;
+    padding: 5px;
+}
