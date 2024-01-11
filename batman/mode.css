@@ -11,3 +11,11 @@ body{
     border-bottom: #99d1ce solid 3px;
     padding: 5px;
 }
+
+.batmantab > img {
+    border-right: #99d1ce solid 3px;
+    padding: 10px;
+    padding-top: 0;
+    padding-left: 2px;
+    padding-right: 15px;
+}
