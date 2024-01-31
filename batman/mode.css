@@ -1,21 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
-body{
-    background-color: #11151c;
-}
 
-.batmantab > h1{
-    color: #99d1ce;
+
+.batmantab > h1 {
+    color: var(--ft-color);
     font-size: xx-large;
     font-family: "Dela Gothic One", sans-serif;
-    border-bottom: #99d1ce solid 3px;
-    padding: 5px;
+    border-bottom: var(--ft-color) solid 3px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    flex-direction: row;
+    padding: 20px;
 }
 
-.batmantab > img {
-    border-right: #99d1ce solid 3px;
+img {
+    border-right: var(--ft-color) solid 3px;
     padding: 10px;
     padding-top: 0;
-    padding-left: 2px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+:root {
+    --background-light: #ffffff;
+    --text-light: #000000;
+    --background-dark: #1f1f1f;
+    --text-dark: #ffffff;
+}
+
+body {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode body {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.mode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+}
+
+p{
+    font-family: "Dela Gothic One", sans-serif;
+    padding-left: 200px;
+    padding-right: 200px ;
+    text-align: justify;
+
+}
+
+.iconify{
+    padding: 15px;
+    padding-left: 1480px;
+
 }
