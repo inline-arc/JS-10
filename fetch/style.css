@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    padding: 10px;
+    margin: 0;
+    padding-left: 30px;
+    color: antiquewhite;
+}
+.navbar {
+    top:0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(138, 228, 231);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+}
+
+
+img{
+    height: 485px;
+    width: 485px;
+    padding: 10px;
+}
