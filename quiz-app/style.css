@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+h1{
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.quiz-container{
+    position: absolute;     
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    height: 300px;
+    width: 98.44%   ;
+    align-content: center;
+    font-family: "Press Start 2P", system-ui;
+    padding: 30px;    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+} 
+  
+
+input[type="checkbox"] {
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+  }
+  
+
+#submit{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #4433ff;
+    box-shadow: 0 5px #3a86ff;
+  }
+  #submit:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+  }
+  #submit:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+  }
