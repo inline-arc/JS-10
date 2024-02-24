@@ -1,4 +1,4 @@
-# JS-10
+)# JS-10
 10 Vanilla JS Projects for practice and challenging learning
 
 <details>
@@ -25,7 +25,10 @@
 <summary>Fectching</summary>
 <img src="https://github.com/inline-arc/JS-10/assets/104635627/06436aea-0043-4c5f-9d1d-400f3846ce19" width="1000">
 </details>
-
+<details>
+<summary>Unwated Quiz</summary>
+<img src="https://github.com/inline-arc/JS-10/assets/104635627/c5277c07-59c9-44da-8a0c-5f7221189767" width="1000">
+</details>
 
 
 
