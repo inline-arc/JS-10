@@ -1,4 +1,4 @@
-)# JS-10
+# JS-10
 10 Vanilla JS Projects for practice and challenging learning
 
 <details>
